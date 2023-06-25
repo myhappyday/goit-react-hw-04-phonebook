@@ -1,4 +1,3 @@
-import React from 'react';
 import PropTypes from 'prop-types';
 import ContactListItem from '../ContactListItem';
 import { List } from './ContactList.styled';
@@ -13,12 +12,7 @@ const ContactList = ({ contacts, onDeleteContact }) => {
           name={name}
           number={number}
           onDelete={onDeleteContact}
-        >
-          <p>
-            <span>{name}:</span>
-            <span>{number}</span>
-          </p>
-        </ContactListItem>
+        ></ContactListItem>
       ))}
     </List>
   );

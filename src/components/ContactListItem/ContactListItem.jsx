@@ -1,4 +1,3 @@
-import React from 'react';
 import PropTypes from 'prop-types';
 import { ContactItem, Name, Number, Button } from './ContactListItem.styled';
 
